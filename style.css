@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@800;900&display=swap');
+
+
 body {
     height: 100vh;
     background-color: rgb(27, 52, 110);
@@ -13,14 +16,11 @@ body {
 }
 
 .titulo {
-    margin-bottom: 15px;
+    font-family: 'Cairo', sans-serif;
+    font-size: 35px;
     color: rgb(232, 231, 240);
 }
 
-.texto {
-    color: rgb(232, 231, 240);
-
-}
 
 img {
     margin: 5%;
@@ -31,9 +31,20 @@ img {
 }
 
 .instagram {
+    font-family: 'Cairo', sans-serif;
     color: rgb(232, 231, 240);
 }
 
 .whatsapp {
+    font-family: 'Cairo', sans-serif;
+    margin: 50px;
     color: rgb(232, 231, 240);
+}
+
+.apresentacao_texto {
+    color: rgb(232, 231, 240);
+    font-size: 18px;
+    text-align: justify;
+    font-family: 'Cairo', sans-serif;
+
 }
