@@ -3,13 +3,13 @@
 
 body {
     height: 100vh;
-    background-color: rgb(27, 52, 110);
-    font-family: Arial, sans-serif;
+    background-color: #B0E0E6;
+
 
 }
 
 .apresentacao {
-    margin: 10%;
+    margin: 10% 10%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -18,33 +18,58 @@ body {
 .titulo {
     font-family: 'Cairo', sans-serif;
     font-size: 35px;
-    color: rgb(232, 231, 240);
+    color: #fb7602;
 }
 
-
 img {
-    margin: 5%;
+
     background-color: aliceblue;
     border-radius: 3%;
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
+}
+
+.apresentacao_texto {
+    width: 615px;
+    color: #3F72AF;
+    font-size: 18px;
+    text-align: justify;
+    font-family: 'Cairo', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bolder;
+    align-items: center;
+    padding-top: 5px;
 }
 
 .instagram {
     font-family: 'Cairo', sans-serif;
-    color: rgb(232, 231, 240);
+    font-size: larger;
+    text-align: center;
+    color: #fb7602;
+    background-color: rgb(15, 8, 84);
+    border-radius: 13px;
+    padding: 10px 0;
+    width: 280px;
+
+
 }
 
 .whatsapp {
     font-family: 'Cairo', sans-serif;
-    margin: 50px;
-    color: rgb(232, 231, 240);
-}
-
-.apresentacao_texto {
-    color: rgb(232, 231, 240);
-    font-size: 18px;
-    text-align: justify;
-    font-family: 'Cairo', sans-serif;
+    font-size: larger;
+    text-align: center;
+    color: #fb7602;
+    background-color: rgb(15, 8, 84);
+    border-radius: 13px;
+    padding: 10px 0;
+    width: 280px;
 
 }
