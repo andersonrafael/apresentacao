@@ -47,6 +47,8 @@ img {
     font-weight: bolder;
     align-items: center;
     padding-top: 5px;
+    flex-direction: column;
+    gap: 28px;
 }
 
 .instagram {
