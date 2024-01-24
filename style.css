@@ -13,12 +13,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+
 }
 
 .titulo {
     font-family: 'Cairo', sans-serif;
     font-size: 35px;
     color: #fb7602;
+    text-align: center;
 }
 
 img {
@@ -33,7 +35,7 @@ img {
     width: 615px;
     color: #c3d7f0;
     font-size: 18px;
-    text-align: justify;
+    text-align: center;
     font-family: 'Cairo', sans-serif;
     display: flex;
     flex-direction: column;
