@@ -3,7 +3,7 @@
 
 body {
     height: 100vh;
-    background-color: #B0E0E6;
+    background-color: #000708;
 
 
 }
@@ -31,47 +31,54 @@ img {
 
 .apresentacao_texto {
     width: 615px;
-    color: #3F72AF;
+    color: #c3d7f0;
     font-size: 18px;
     text-align: justify;
     font-family: 'Cairo', sans-serif;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 18px;
 
 }
 
 .links {
+    font-family: 'Cairo', sans-serif;
+    font-size: 22px;
+    text-align: center;
     display: flex;
     justify-content: space-between;
     font-weight: bolder;
     align-items: center;
-    padding-top: 5px;
     flex-direction: column;
-    gap: 28px;
+    gap: 25px;
+    padding: 15px;
+
 }
 
 .instagram {
-    font-family: 'Cairo', sans-serif;
-    font-size: larger;
-    text-align: center;
+    border: 3px solid #fb7602;
     color: #fb7602;
-    background-color: rgb(15, 8, 84);
-    border-radius: 13px;
+    background-color: black;
+    border-radius: 10px;
     padding: 10px 0;
-    width: 280px;
-
-
+    width: 300px;
 }
 
 .whatsapp {
-    font-family: 'Cairo', sans-serif;
-    font-size: larger;
-    text-align: center;
+    border: 3px solid #fb7602;
     color: #fb7602;
-    background-color: rgb(15, 8, 84);
-    border-radius: 13px;
+    background-color: black;
+    border-radius: 10px;
     padding: 10px 0;
-    width: 280px;
+    width: 300px;
+}
 
+.imgInstagram {
+    width: 25px;
+    height: 25px;
+}
+
+.imgWhatsapp {
+    width: 25px;
+    height: 25px;
 }
