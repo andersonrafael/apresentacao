@@ -76,7 +76,7 @@ img {
 
 }
 
-.links {
+/*.links {
     font-family: 'Cairo', sans-serif;
     font-size: 22px;
     text-align: center;
@@ -92,7 +92,6 @@ img {
 
 .instagram {
     border: 3px solid #fb7602;
-    background-color: aliceblue;
     color: #fb7602;
     border-radius: 10px;
     padding: 15px 0;
@@ -106,7 +105,6 @@ img {
 .whatsapp {
     border: 3px solid #fb7602;
     color: #fb7602;
-    /*background-color: black;*/
     border-radius: 10px;
     padding: 15px 0;
     width: 300px;
@@ -128,16 +126,17 @@ img {
     margin-top: 10px;
 }
 
-/*.instagram:hover {
-    background-color: rgb(221, 239, 239);
-    transition: 0.7s;
-}*/
+.instagram:hover {
 
-/*.whatsapp:hover {
-    background-color: rgb(34, 35, 35);
+    background-color: rgb(25, 26, 26);
     transition: 0.7s;
-}*/
+}
 
+.whatsapp:hover {
+    background-color: rgb(25, 26, 26);
+    transition: 0.7s;
+}
+*/
 .rodape {
     color: aliceblue;
     background-color: #fb7602;

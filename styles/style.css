@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@800;900&display=swap');
+
+
+body {
+    height: 100vh;
+    background-color: #000708;
+
+}
+
+.cabecalho {
+    display: flex;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    padding: 2% 0 0 58%;
+    gap: 30px;
+}
+
+.home {
+    color: #fb7602;
+    border: 3px solid #fb7602;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+.home:hover {
+    background-color: rgb(34, 35, 35);
+    transition: 0.7s;
+}
+
+.sobreMim {
+    color: #fb7602;
+    border: 3px solid #fb7602;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+.sobreMim:hover {
+    background-color: rgb(34, 35, 35);
+    transition: 0.7s;
+
+}
+
+.apresentacao {
+    padding: 3%;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 80px;
+}
+
+.titulo {
+    font-family: 'Cairo', sans-serif;
+    font-size: 35px;
+    color: #fb7602;
+    text-align: center;
+}
+
+img {
+
+    background-color: aliceblue;
+    border-radius: 3%;
+    width: 350px;
+    height: 350px;
+}
+
+.apresentacao_texto {
+    width: 615px;
+    color: whitesmoke;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Cairo', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+
+}
+
+.links {
+    font-family: 'Cairo', sans-serif;
+    font-size: 22px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    padding: 15px 0;
+
+}
+
+.instagram {
+    border: 3px solid #fb7602;
+    color: #fb7602;
+    border-radius: 10px;
+    padding: 15px 0;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+
+}
+
+.whatsapp {
+    border: 3px solid #fb7602;
+    color: #fb7602;
+    border-radius: 10px;
+    padding: 15px 0;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+
+}
+
+.imgInstagram {
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
+}
+
+.imgWhatsapp {
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
+}
+
+.instagram:hover {
+
+    background-color: rgb(25, 26, 26);
+    transition: 0.7s;
+}
+
+.whatsapp:hover {
+    background-color: rgb(25, 26, 26);
+    transition: 0.7s;
+}
+
+.rodape {
+    color: aliceblue;
+    background-color: #fb7602;
+    padding: 40px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    border-radius: 5px;
+
+}
