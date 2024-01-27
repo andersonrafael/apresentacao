@@ -92,8 +92,8 @@ img {
 
 .instagram {
     border: 3px solid #fb7602;
+    background-color: aliceblue;
     color: #fb7602;
-    /*background-color: black;*/
     border-radius: 10px;
     padding: 15px 0;
     width: 300px;
@@ -128,15 +128,15 @@ img {
     margin-top: 10px;
 }
 
-.instagram:hover {
-    background-color: rgb(34, 35, 35);
+/*.instagram:hover {
+    background-color: rgb(221, 239, 239);
     transition: 0.7s;
-}
+}*/
 
-.whatsapp:hover {
+/*.whatsapp:hover {
     background-color: rgb(34, 35, 35);
     transition: 0.7s;
-}
+}*/
 
 .rodape {
     color: aliceblue;
